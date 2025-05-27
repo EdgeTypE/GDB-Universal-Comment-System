@@ -176,6 +176,6 @@ Found a bug or have a feature request? Please:
   <strong>Transform every webpage into a collaborative space! 🚀</strong>
   <br><br>
   <a href="https://chromewebstore.google.com/detail/gdb-universal-comment-sys/bbgiegnpfhcgpkojnmgnofkiophiacgl">
-    <img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/mPGKYBIR2uCP0ApchDXE.png" alt="Available in the Chrome Web Store" height="58">
+    <img src="https://cdn.goygoyengine.com/images/1748245557955-6f074a2fa4f6f531.png" alt="Available in the Chrome Web Store" height="58">
   </a>
 </div>
