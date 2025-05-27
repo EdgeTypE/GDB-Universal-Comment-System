@@ -1,5 +1,6 @@
 /node_modules
 /dist copy
+/dist
 *.pem
 *.crx
 *.zip
