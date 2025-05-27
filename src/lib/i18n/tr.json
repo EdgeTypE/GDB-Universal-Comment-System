@@ -1,0 +1,31 @@
+{
+  "comments": "Yorumlar",
+  "comment": "Yorum",
+  "reply": "Yanıtla",
+  "cancel": "İptal",
+  "loading": "Yükleniyor...",
+  "noComments": "Henüz yorum yapılmamış. İlk yorumu siz yapın!",
+  "form": {
+    "username": "Kullanıcı Adı",
+    "anonymous": "Anonim",
+    "commentPlaceholder": "Yorumunuzu yazın...",
+    "submit": "Yorum Yap",
+    "reply": "Yanıtla"
+  },
+  "error": {
+    "required": "Kullanıcı adı ve yorum alanları boş bırakılamaz",
+    "loading": "Yorumlar alınırken bir hata oluştu",
+    "posting": "Yorum gönderilirken bir hata oluştu",
+    "unknown": "Bilinmeyen bir hata oluştu"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch"
+  },
+  "currentUrl": "Mevcut URL",
+  "footer": {
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Koşulları"
+  }
+}

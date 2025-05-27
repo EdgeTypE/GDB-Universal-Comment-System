@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "GDB Universal Comment System",
+  "description": "An universal comment system that allows you to comment on any web page.",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_icon": "assets/icon16.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://auth.goygoyengine.com/*"
+  ],
+  "icons": {
+    "16": "assets/icon16.png"
+  },
+  "author": "EdgeTypE",
+  "homepage_url": "https://dash.goygoyengine.com"
+}

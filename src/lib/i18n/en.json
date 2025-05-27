@@ -1,0 +1,31 @@
+{
+  "comments": "Comments",
+  "comment": "Comment",
+  "reply": "Reply",
+  "cancel": "Cancel",
+  "loading": "Loading...",
+  "noComments": "No comments yet. Be the first to comment!",
+  "form": {
+    "username": "Username",
+    "anonymous": "Anonymous",
+    "commentPlaceholder": "Write your comment...",
+    "submit": "Post Comment",
+    "reply": "Reply"
+  },
+  "error": {
+    "required": "Username and comment fields cannot be empty",
+    "loading": "An error occurred while loading comments",
+    "posting": "An error occurred while posting comment",
+    "unknown": "An unknown error occurred"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch"
+  },
+  "currentUrl": "Current URL",
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

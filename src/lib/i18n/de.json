@@ -1,0 +1,31 @@
+{
+  "comments": "Kommentare",
+  "comment": "Kommentar",
+  "reply": "Antworten",
+  "cancel": "Abbrechen",
+  "loading": "Wird geladen...",
+  "noComments": "Noch keine Kommentare. Sei der Erste, der kommentiert!",
+  "form": {
+    "username": "Benutzername",
+    "anonymous": "Anonym",
+    "commentPlaceholder": "Schreiben Sie Ihren Kommentar...",
+    "submit": "Kommentar posten",
+    "reply": "Antworten"
+  },
+  "error": {
+    "required": "Benutzername und Kommentarfelder dürfen nicht leer sein",
+    "loading": "Beim Laden der Kommentare ist ein Fehler aufgetreten",
+    "posting": "Beim Veröffentlichen des Kommentars ist ein Fehler aufgetreten",
+    "unknown": "Ein unbekannter Fehler ist aufgetreten"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch"
+  },
+  "currentUrl": "Aktuelle URL",
+  "footer": {
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen"
+  }
+}

@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.comment-thread {
+  @apply ml-6 border-l-2 border-primary/20 pl-4 space-y-4 my-4;
+}
+
+.comment-card {
+  @apply bg-base-200 rounded-lg shadow-sm transition-all duration-200 hover:shadow-md;
+  @apply p-4 backdrop-blur-sm backdrop-filter;
+}
+
+.comment-header {
+  @apply flex items-center justify-between mb-3;
+}
+
+.comment-author {
+  @apply font-semibold text-primary flex items-center gap-2;
+}
+
+.comment-author::before {
+  content: '';
+  @apply w-1 h-1 rounded-full bg-primary inline-block;
+}
+
+.comment-time {
+  @apply text-sm text-base-content/60;
+}
+
+.comment-text {
+  @apply text-base-content/90 whitespace-pre-wrap break-words leading-relaxed;
+}
+
+.reply-button {
+  @apply btn btn-ghost btn-xs mt-3 opacity-70 hover:opacity-100;
+}
+
+.comment-form {
+  @apply p-5 bg-base-200/50 rounded-xl backdrop-blur-sm shadow-sm;
+}
+
+.form-error {
+  @apply text-error text-sm mt-1;
+}
+
+.loading-spinner {
+  @apply animate-spin h-5 w-5 text-primary;
+}
+
+/* Form styles */
+.form-control {
+  @apply transition-all duration-200;
+}
+
+.input, .textarea {
+  @apply transition-all duration-200;
+  @apply focus:border-primary/50 hover:border-primary/30;
+  @apply placeholder:text-base-content/30;
+}
+
+.label-text {
+  @apply text-base-content/70 font-medium;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply shadow-sm hover:shadow-md transition-all duration-200;
+  @apply disabled:shadow-none;
+}
+
+/* Dropdown styles */
+.dropdown .btn {
+  @apply hover:bg-base-200/80;
+}
+
+.dropdown-content {
+  @apply mt-2 shadow-lg backdrop-blur-sm;
+}
+
+/* Alert styles */
+.alert {
+  @apply shadow-sm border-l-4;
+}
+
+.alert-error {
+  @apply bg-error/10 border-error/50;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-base-200/50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/20 rounded-full hover:bg-primary/30;
+}
+
+/* Container styles */
+main {
+  max-height: 600px;
+  @apply overflow-y-auto overflow-x-hidden;
+}
+
+/* Header styles */
+header h1 {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70;
+}
